@@ -1,0 +1,54 @@
+:root{
+    --color-main:#004B88;
+    --color-orange:#C48429;
+    --color-linear: linear-gradient(360deg, #C48429 -5.21%, #EEA845 100%);
+
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html ,body{
+    width: 100%;
+    overflow-x: hidden;
+}
+body{
+    font-family: "gilmer",sans-serif;
+    line-height: 1.5;
+}
+ul, ol {
+    list-style: none;
+}
+input,textarea{
+    outline: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+img {
+    max-width: 100%;
+}
+
+@font-face {
+    font-family: gilmer;
+    src: url("./assets/font/Gilmer-Regular.ttf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: gilmer;
+    src: url('./assets/font/Gilmer-Medium.ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: gilmer;
+    src: url('./assets/font/Gilmer-Bold.ttf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: gilmer;
+    src: url('./assets/font/Gilmer-Heavy.ttf');
+    font-weight: 800;
+}
